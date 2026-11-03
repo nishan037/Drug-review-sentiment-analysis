@@ -118,6 +118,11 @@ If deployment reports “model unavailable,” verify its exact path and that Gi
 LFS/release downloads completed. Dependency errors should be reproduced locally
 with a clean Python 3.11 environment and `requirements.txt`.
 
+Because the Streamlit entry point is inside `app/`, `app/requirements.txt`
+provides its lightweight inference dependencies directly to Community Cloud.
+If Cloud reports a missing module, confirm this file exists on the deployed
+branch, reboot the app, and inspect the dependency-install section of its logs.
+
 ## Repository layout
 
 ```text
