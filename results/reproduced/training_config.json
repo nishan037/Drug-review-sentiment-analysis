@@ -1,0 +1,12 @@
+{
+  "class_weight": "balanced",
+  "max_features": 20000,
+  "model": "TF-IDF + Logistic Regression",
+  "ngram_range": [
+    1,
+    2
+  ],
+  "random_seed": 42,
+  "test_source": "drugsComTest_raw.csv",
+  "train_source": "drugsComTrain_raw.csv"
+}

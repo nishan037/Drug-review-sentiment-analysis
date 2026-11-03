@@ -1,0 +1,3 @@
+# Optional: only required to rerun the academic neural-network experiments.
+# Use a TensorFlow release compatible with your Python/macOS combination.
+tensorflow==2.18.0

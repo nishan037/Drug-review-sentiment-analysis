@@ -1,0 +1,33 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Downloaded datasets and generated artifacts
+data/*.csv
+data/*.tsv
+data/*.zip
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# Keep documentation placeholders
+!data/README.md
+!models/README.md
+!models/tfidf_logistic_regression.joblib
+
+# Academic report is intentionally not published
+Document.pdf
+*.pdf

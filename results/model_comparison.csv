@@ -1,0 +1,6 @@
+model,accuracy,precision_weighted,recall_weighted,f1_weighted,training_seconds,source
+GRU,0.779712,0.830521,0.779712,0.799084,982.851231,original_notebook_output
+LSTM,0.779340,0.823694,0.779340,0.796500,925.072135,original_notebook_output
+TF-IDF + Logistic Regression,0.747052,0.808570,0.747052,0.768984,27.667786,original_notebook_output
+Bidirectional LSTM,0.742421,0.822645,0.742421,0.771924,5477.261973,original_notebook_output
+VADER,0.544470,0.623748,0.544470,0.552965,0.000000,original_notebook_output
